@@ -1,6 +1,6 @@
 1. ls -l | awk '{print $5,$9}' | sed 's/ /:/'
 2. ls -l | awk '{print $5,$9}' | sed 's/ /:/' | sort -n
-3.  cat derbi.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $4,$5,$3}' | grep .*empate | sort -n |sed 's/empate//g' > empate.txt
-    
+3./4./5.    cat derbi.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $4,$5,$3}' | grep .*empate | sort -n |sed 's/empate//g' > empate.txt
+            cat derbi.txt | sed 's/ //g' | sed 's/,/ /g' | awk '{print $4,$5,$3}' | grep .*Valencia | sort -n |sed 's/Valencia//g' > valencia.txt           
 
 
